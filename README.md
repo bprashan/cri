@@ -1,4 +1,4 @@
-# Secure Device Onboard (SDO)Quick Start
+# Secure Device Onboard (SDO)Quick Start Guide
 
 ## Building SDO
 
