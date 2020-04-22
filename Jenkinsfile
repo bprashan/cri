@@ -21,6 +21,7 @@ stage('archive artifacts'){
     cp -r rendezvous/target/rendezvous*.war cri
     cp -r to0client/target/to0client*.jar cri
     '''
+
     zip zipFile: 'cri.zip', archive: false, dir: 'cri'
     archiveArtifacts artifacts: 'cri.zip', fingerprint: true, allowEmptyArchive: false
     cleanWs()
